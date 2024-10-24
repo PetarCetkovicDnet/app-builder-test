@@ -1,0 +1,84 @@
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.view-3-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_1 {
+  min-width: 400px;
+  min-height: 300px;
+  flex-grow: 1;
+  flex-basis: 0;
+  > * { height: 100%; width: 100%; }
+}
+.row-layout {
+  display: flex;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  height: 35%;
+  min-width: 50px;
+  min-height: 50px;
+  max-height: 35%;
+  flex-shrink: 0;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 1rem;
+  overflow: hidden;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.chip {
+  width: max-content;
+  height: max-content;
+}
+.icon {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.calendar {
+  width: max-content;
+  height: max-content;
+  min-width: max-content;
+}
+.h6 {
+  margin: 0;
+  flex-shrink: 0;
+}
+.icon-button {
+  --ig-size: var(--ig-size-small);
+}
+.navbar {
+  height: max-content;
+  min-width: min-content;
+}
+.tree {
+  min-width: max-content;
+  min-height: max-content;
+  flex-shrink: 0;
+}
