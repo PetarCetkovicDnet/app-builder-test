@@ -58,3 +58,19 @@
   width: 24px;
   height: 24px;
 }
+.tree {
+  min-width: max-content;
+  min-height: max-content;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.button-group {
+  height: max-content;
+  min-width: min-content;
+}
+.checkbox {
+  width: max-content;
+  height: max-content;
+}
